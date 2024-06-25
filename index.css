@@ -1,0 +1,220 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  margin-right: 20px;
+  height: 40px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav li {
+  margin-right: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.divider {
+  width: 3cm;
+  height: 1px;
+  background-color: #ff0000;
+  margin: 30px auto;
+}
+
+.hero {
+  background-image: url("https://i.ibb.co/K06gK3G/hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.about {
+  padding: 50px;
+  text-align: center;
+}
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.about p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero {
+  background-image: url(img/food.jpg);
+}
+
+.about-section {
+  background-color: #feffb9;
+  padding: 100px 0;
+  position: relative;
+}
+
+.x-icon {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+}
+
+.w-container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 15px 30px;
+  border: 1px solid #000000;
+  box-shadow: 2px 4px #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+button:hover {
+  /* Thay đổi các thuộc tính khi di chuột vào */
+  box-shadow: 4px 8px rgb(255, 195, 83);
+  background-color: #f4f4f4;
+  padding: 15px 30px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.container {
+    text-align: center;
+    padding: 50px;
+    max-width: 1000px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+}
+.section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.process {
+    display: flex;
+    justify-content: space-around;
+}
+.process-item {
+    width: 20%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    
+    border-radius: 10px;
+}
+.process-item img {
+    width: 50px;
+    height: 50px;
+}
+.process-item h3 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.process-item p {
+    font-size: 14px;
+    color: #777;
+}
+
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center; /* Center the grid */
+}
+.project-item {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.project-item img {
+    width: 100%;
+    height: auto;
+}
+.project-item h3, .project-item p {
+    margin: 10px 0;
+}
+.project-item p {
+    color: #777;
+    font-size: 14px;
+}
+.project-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 900px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 600px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}
+
+@font-face {
+    font-family: 'myFont';
+    src: url('font/UTM\ Duepuntozero.ttf');
+}
+
+.project-title{
+    font-family: 'myFont';
+    font-style: italic;
+}

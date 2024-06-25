@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+            max-width: 1200px; /* Maximum width of the container */
+            margin: 0 auto; /* Center the container */
+        }
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            justify-content: center; /* Center the grid */
+        }
+        .project-item {
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project-item img {
+            width: 100%;
+            height: auto;
+        }
+        .project-item h3, .project-item p {
+            margin: 10px 0;
+        }
+        .project-item p {
+            color: #777;
+            font-size: 14px;
+        }
+        .project-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        @media (max-width: 900px) {
+            .projects {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 600px) {
+            .projects {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section-title">DỰ ÁN GẦN ĐÂY</div>
+        <div class="projects">
+            <div class="project-item">
+                <img src="go.png" alt="Gỗ">
+                <h3>GỖ</h3>
+                <p>Nhiếp ảnh</p>
+            </div>
+            <div class="project-item">
+                <img src="conduong.png" alt="Con đường">
+                <h3>CON ĐƯỜNG</h3>
+                <p>Trang web · Nhiếp ảnh</p>
+            </div>
+            <div class="project-item">
+                <img src="bongtoi.png" alt="Bóng tối">
+                <h3>BÓNG TỐI</h3>
+                <p>Trang mạng</p>
+            </div>
+            <div class="project-item">
+                <img src="song.png" alt="Sóng">
+                <h3>SÓNG</h3>
+                <p>Nhiếp ảnh</p>
+            </div>
+            <div class="project-item">
+                <img src="giot.png" alt="Giọt">
+                <h3>GIỌT</h3>
+                <p>Trang mạng</p>
+            </div>
+            <div class="project-item">
+                <img src="daiduong.png" alt="Đại dương">
+                <h3>ĐẠI DƯƠNG</h3>
+                <p>Trang mạng</p>
+            </div>
+            <div class="project-item">
+                <img src="thitran.png" alt="Thị trấn">
+                <h3>THỊ TRẤN</h3>
+                <p>Trang mạng</p>
+            </div>
+            <div class="project-item">
+                <img src="nui.png" alt="Núi">
+                <h3>NÚI</h3>
+                <p>Trang mạng</p>
+            </div>
+            <div class="project-item">
+                <img src="mayanh.png" alt="Máy ảnh">
+                <h3>MÁY ẢNH</h3>
+                <p>Trang mạng</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
